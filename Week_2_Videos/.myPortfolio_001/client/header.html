@@ -1,0 +1,53 @@
+<template name="header">
+    <div class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/">devLog</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-left">
+                    <li><a href="/projects">Projects</a></li>
+                    <li><a href="/news">News</a></li>
+                    <li><a href="/blog">Blog</a></li>
+                    {{#if currentUser}}
+                        {{#if isAdmin}}
+                            <li><a href="/admin/blog ">ADMIN</a></li>
+                        {{/if}}
+                    {{else}}
+                        {{#if isAdmin}}{{/if}}
+                    {{/if}}
+                </ul>
+                <ul class="nav navbar-nav navbar-right ">
+                    {{> loginButtons align="right"}}
+                </ul>
+            </div>
+        </div>
+    </div>
+</template>
+<!-- 
+<template name="header ">
+  <div class="navbar navbar-default " role="navigation ">
+    <div class="container ">
+      <div class="navbar-header ">
+        <a href="/ " class="navbar-brand ">Portfolio</a>
+      </div>
+      <div class="navbar-collapse collapse ">
+        <ul class="nav navbar-nav navbar-left ">
+          <li>
+            <a href="news ">News</a>
+          </li>
+          <li>
+            <a href="{{blogPathFor "blogIndex"}}">Blog</a>
+                        </li>
+                        <li>
+                            <a href="{{blogPathFor "blogAdmin"}}">Admin Area (must login)</a>
+                        </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    {{> loginButtons}}
+                </ul>
+            </div>
+        </div>
+    </div>
+</template>
+-->

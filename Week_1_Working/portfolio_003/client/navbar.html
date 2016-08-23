@@ -1,0 +1,30 @@
+<!-- portfolio_003/client/navbar.html  -->
+<!--  -->
+<!--  -->
+<template name="navbar">
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-menu-right"> </span> Portfolio</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-left">
+                    <li>
+                        <a href="/projects">Projects</a>
+                    </li>
+                    <li>
+                        <a href="/news">News</a>
+                    </li>
+                    <li>
+                        <a href="/blog">Blog</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <p class="navbar-text">{{> loginButtons align="right"}}</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</template>

@@ -1,0 +1,52 @@
+Week 1 Creating a Portfolio Website with a Blog
+Responsive Website Tutorials and Examples outline: Course overview
+Course outline
+
+In this course, we will show you exciting examples of collaborative, interactive web applications that use various types of media including sound, images and big data.
+We will show you how to build sites that provide precisely this functionality, from scratch, using Meteor. We will also provide fully working example application code that you can use for your own commercial web projects.
+The course also provides a range of advice and suggestions about how to develop web applications for clients with different needs.
+We will take you through the development of the following applications:
+1.  A portfolio website with collaborative blogging functionality.
+2.  An interactive, realtime, multi user music remixing system.
+3.  An interactive, online graffiti wall where users can collaborate to create graphics.
+4.  An interactive data visualisation platform for exploring and plotting big data in exciting ways.
+At the end of this course, you will be able to:
+•   Implement animated data visualisations and graphics using advanced user interface libraries such as vis.js
+•   Work with external data sources
+•   Create multi user, realtime, collaborative environments
+•   Use media APIs such as the Web Audio API
+
+Grading and assessment information
+After each lesson there are practice quizzes which will test your knowledge from the video lecture you have just watched. Your attempts at these quizzes will not count towards your final grade for the course and will not affect your ability to achieve the course certificate.
+Certificate
+In order to achieve the course certificate you must complete all module summary quizzes and both peer assessments.
+All modules have a graded quiz which each count towards 10% of your overall grade for the course.
+There is a peer assessment at the end of modules 2 and 4 which each count towards 30% of your overall grade for the course.
+The pass mark for this course is 65%.
+
+Learning outcomes
+In this lesson we will set up a basic framework for our portfolio website. At the end of this lesson you will understand how to :
+Set up a basic project in Meteor
+Create a basic layout with Bootstrap
+Create a Header and Navbar
+Use routing to organise web pages
+
+Getting started
+meteor create myPortfolio
+meteor add iron:router
+
+Adding a page
+Learning outcomes
+At the end of this lesson you will have learned how to:
+Add pages to the website
+Add and remove links to pages in the Navbar
+
+
+Administrating the blog and making it responsive
+At the end of this lesson you will have learned :
+How to create dynamic pages
+How to add and edit dynamic content including text, videos and images
+How dynamic content is stored.
+How to ensure that your portfolio website is responsive
+
+
